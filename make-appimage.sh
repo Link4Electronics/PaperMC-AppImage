@@ -8,7 +8,7 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=https://github.com/PaperMC/Paper/blob/main/paper-server/src/main/resources/logo.png?raw=true
+export ICON=https://raw.githubusercontent.com/PaperMC/Paper/refs/heads/main/paper-server/src/main/resources/logo.png
 export DESKTOP=DUMMY
 export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
