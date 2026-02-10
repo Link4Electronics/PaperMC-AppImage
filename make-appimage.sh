@@ -12,7 +12,7 @@ export ICON=https://github.com/PaperMC/Paper/blob/main/paper-server/src/main/res
 export DESKTOP=DUMMY
 
 # Deploy dependencies
-quick-sharun /srv/papermc/papermc_server.jar
+quick-sharun java /srv/papermc/papermc_server.jar
 
 # Additional changes can be done in between here
 
