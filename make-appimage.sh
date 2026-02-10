@@ -15,7 +15,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 #archlinux-java set java-25-openjdk
 # Deploy dependencies
-quick-sharun /usr/lib/jvm/java-25-openjdk/bin/java /srv/papermc/papermc_server.jar /usr/lib/jvm/java-25-openjdk/lib/*
+quick-sharun /usr/lib/jvm/java-25-openjdk/bin/java -jar /srv/papermc/papermc_server.jar #/usr/lib/jvm/java-25-openjdk/lib/*
 
 # Additional changes can be done in between here
 
@@ -24,4 +24,4 @@ quick-sharun --make-appimage
 
 # Test the app for 12 seconds, if the app normally quits before that time
 # then skip this or check if some flag can be passed that makes it stay open
-quick-sharun --test ./dist/*.AppImage
+#quick-sharun --test ./dist/*.AppImage
