@@ -13,6 +13,7 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
+archlinux-java status
 archlinux-java set java-25-openjdk
 make-aur-package papermc
 
