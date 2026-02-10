@@ -15,7 +15,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 #archlinux-java set java-25-openjdk
 # Deploy dependencies
-quick-sharun $JAVA_HOME/bin/java /srv/papermc/papermc_server.jar /usr/lib/jvm/java-25-openjdk/lib/*
+quick-sharun /usr/lib/jvm/java-25-openjdk/bin/java /srv/papermc/papermc_server.jar /usr/lib/jvm/java-25-openjdk/lib/*
 
 # Additional changes can be done in between here
 
