@@ -10,6 +10,8 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://github.com/PaperMC/Paper/blob/main/paper-server/src/main/resources/logo.png?raw=true
 export DESKTOP=DUMMY
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
 
 # Deploy dependencies
 quick-sharun java /srv/papermc/papermc_server.jar
