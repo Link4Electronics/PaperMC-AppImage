@@ -21,7 +21,7 @@ export ICON=https://raw.githubusercontent.com/PaperMC/Paper/refs/heads/main/pape
 
 quick-sharun \
         ./AppDir/bin/* \
-         /usr/lib/jvm/java-25-openjdk/*
+         /usr/lib/jvm/java-25-openjdk/bin/*
 chmod +x ./AppDir/bin/papermc.sh
 
 # Additional changes can be done in between here
