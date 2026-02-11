@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm java-runtime-headless
+pacman -Syu --noconfirm jre-openjdk-headless #java-runtime-headless
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
