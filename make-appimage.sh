@@ -17,9 +17,11 @@ export ICON=https://raw.githubusercontent.com/PaperMC/Paper/refs/heads/main/pape
 # Deploy dependencies
 #quick-sharun /usr/lib/jvm/java-25-openjdk/bin/java -jar /srv/papermc/papermc_server.jar #/usr/lib/jvm/java-25-openjdk/lib/*
 
-quick-sharun \
-        ./AppDir/bin/* \
-         /usr/lib/jvm/java*/*
+quick-sharun /usr/lib/jvm/java*/* -jar /srv/papermc/papermc_server.jar
+
+#quick-sharun \
+#        ./AppDir/bin/* \
+#         /usr/lib/jvm/java*/*
 
 # Additional changes can be done in between here
 
