@@ -1,5 +1,4 @@
 dir=${XDG_DATA_HOME:-~/.local/share}/papermc
-
 if [ ! -f "dir"/papermc_server.jar ]; then
    mkdir -p "$dir"
    cp "$APPDIR"/bin/papermc_server.jar "$dir"
