@@ -1,0 +1,3 @@
+dir=${XDG_DATA_HOME:-~/.local/share}/papermc
+mkdir -p "$dir"
+cd "$dir"
