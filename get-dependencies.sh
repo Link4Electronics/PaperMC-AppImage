@@ -14,7 +14,7 @@ get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
 make-aur-package papermc
-mv -v /srv/papermc/* ./AppDir/bin
+#mv -v /srv/papermc/* ./AppDir/bin
 
 # If the application needs to be manually built that has to be done down here
 
