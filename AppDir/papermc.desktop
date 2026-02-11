@@ -3,4 +3,5 @@ Type=Application
 Name=PaperMC
 Exec=papermc.sh %U
 Icon=logo
+Terminal=true
 Categories=Network;Server;Utility;Minecraft
